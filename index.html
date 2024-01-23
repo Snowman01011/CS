@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Ducxx</title>
+  <link rel="icon" href="https://images.vexels.com/media/users/3/228530/isolated/preview/31dee90607cda01af67614d265bdb538-duck-head-logo.png" type="image/x-icon">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <h1>DUCx</h1>
+  </header>
+  
+<div class="box">
+<p> Displays Alert Message Using If...else condition/expression</p>
+  <!---input box--->
+  <input type="number" id="zzz" placeholder="enter a number....."> <br>
+  <!---input box--->
+  
+  <!---button--->
+  <button id="gooo" onclick="ducx()">Display</button>
+  <!---button--->
+  
+</div>
+  <h2>About</h2>
+  <p>This is a simple program that displays an alert message based on the input value. The program uses an if...else condition/expression to check if the input value is greater than or less than 10. If the input value is greater than 10, an alert message is displayed with the text "The value is greater than 10". If the input value is less than 10, an alert message is displayed with the text "The value is less than 10".
+  </p>
+  <p> </p>
+  <h2>HTML</h2>
+  <span>source code</span>
+  <pre>
+    <code>
+        &lt;div class="box"&gt;
+            &lt;p&gt;Displays Alert Message Using If...else condition/expression&lt;/p&gt;
+            
+            <!-- input box -->
+            &lt;input type="number" id="zzz" placeholder="enter a number....."&gt; &lt;br&gt;
+            <!-- input box -->
+            
+            <!-- button -->
+            &lt;button id="gooo" onclick="ducx()"&gt;Display&lt;/button&gt;
+            <!-- button -->
+        &lt;/div&gt;
+    </code>
+  </pre>
+  <h2>CSS</h2>
+  <span>source code</span>
+  <pre>
+    <code>
+      html {
+        height: 100%;
+        width: 100%;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #121212;
+        color: #f2f2f2;
+      }
+
+      h1 {
+        padding-left: 10px;
+      }
+
+      header {
+        background-color: #212121;
+        padding: 4px;
+        border-radius: 6px;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+
+      .box {
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+        margin-top: 20px;
+        background-color: #212121;
+        border-radius: 6px;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+
+      button {
+        background-color: #515151;
+        color: #f2f2f2;
+        border: none;
+        margin-top: 10px;
+        padding: 10px 20px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.5s ease;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+
+      button:hover {
+        background-color: #121212;
+        border: 1px solid white;
+      }
+
+      #zzz {
+        outline: none;
+        border: none;
+        background-color: #515151;
+        color: #f2f2f2;
+        font-size: 16px;
+        max-width: 100%;
+        padding: 18px;
+        border-radius: 4px;
+        transition: background-color 0.5s ease;
+      }
+    </code>
+  </pre>
+  
+  <h2>JavaScript</h2>
+  <span>source code</span>
+  <pre>
+    <code>
+//calling the assigned button function ducx()
+
+function ducx() {
+  
+  var wau = document.getElementById("zzz").value;
+  
+// Check if the input number is greater than 10
+      
+  if (wau > 10) {
+
+    //True condition.
+      
+  alert("you've entered a number " + wau + " which is greater than 10")
+    
+  }else{
+
+    //False Condition.
+      
+    alert("you've entered a number " +  wau + " which is less than 10")
+ };
+}
+    </code>
+  </pre>
+
+<h2>SOURCE FILE</h2>
+  <p>You can DM me on my Facebook for the source code file. Click on Facebook to DM me.</p>
+  <footer>
+    <p><a href="https://www.facebook.com/profile.php?id=100044846868604&mibextid=ZbWKwL"</a>Facebook</p>
+    <p>© 2024 DUCx. All rights reserved.</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
